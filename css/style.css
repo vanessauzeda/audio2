@@ -1,0 +1,229 @@
+body{
+    background-color: rgba(0, 0, 0, 0.799);
+}
+
+.container{
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 5px;
+    width: 450px;
+    text-align: center;
+    background-color: white;
+}
+
+.container:hover{
+    box-shadow: 0 0 1em rgb(213, 207, 207);
+}
+
+.img1{
+   border-radius: 10px;
+    width: 300px;
+}
+
+h1{
+    position: relative;
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+.nm{
+    font-size: 18px;
+}
+
+.botao{
+    width: 20px;
+    margin: 12px;
+}
+
+.botao:hover{
+    box-shadow: 0 0 1em olive;
+}
+
+.controle{
+    position: relative;
+    margin-top: 10px;
+}
+
+.botao_volume{
+    position: absolute;
+    width: 21px;
+    margin-top: 11px;
+    margin-left: 35px;
+}
+
+.r1{ 
+    position: relative;
+    transform: scale(1.2);
+}
+
+
+.playlist{
+    display: inline-block;
+    position: absolute;
+    left: 78%;
+    top: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    margin-top: 20px;
+    color: white;
+    font-size: 22px;
+}
+
+.pn{
+    margin-top: 8px;
+    color: white;
+    font-size: 18px;
+}
+
+.pn:hover{
+background-color: white;
+color: olive;
+font-size: 19px;
+}
+
+@media screen and (max-width: 800px){
+.container{
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.img1{
+   border-radius: 10px;
+    width: 250px;
+}
+
+h1{
+    position: relative;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.botao{
+    width: 15px;
+    margin: 8px;
+}
+
+
+.controle{
+    position: relative;
+    margin-top: 10px;
+}
+
+.botao_volume{
+    position: absolute;
+    width: 18px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.r1{ 
+    margin-top: px;
+    width: 17px;
+}
+
+.playlist{
+    display: inline-block;
+    position: absolute;
+    left: 79%;
+    bottom: 80%;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+   
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.pn{
+    margin-top: 13px;
+    font-size: 12px;
+}
+
+.t4{
+    font-size: 13px;
+}
+
+.pn:hover{
+    font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        margin-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        border-radius: 5px;
+        width: 220px;
+     
+    }
+    
+    .img1{
+       border-radius: 10px;
+        width: 150px;
+    }
+    
+    h1{
+        position: relative;
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    .nm{
+        font-size: 10px;
+    }
+    
+    .botao{
+        width: 8px;
+        margin: 5px;
+    }
+    
+    .controle{
+        position: relative;
+        margin-top: 10px;
+    }
+    
+    .botao_volume{
+        position: absolute;
+        width: 9px;
+        margin-top: 6px;
+        margin-left: 18px;
+    }
+    
+    .r1{ 
+        margin-top: px;
+        width: 9px;
+    }
+    
+    .playlist{
+        display: inline-block;
+        position: absolute;
+        left: 78%;
+    }
+    
+    h2{
+        font-size: 8px;
+    }
+    
+    .pn{
+        margin-top: 8px;
+        font-size: 7px;
+    }
+    
+    }

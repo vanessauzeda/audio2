@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Audio 2</title>
+
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <img class="img1" src="https://akamai.sscdn.co/uploadfile/letras/albuns/b/b/9/d/630721522667585.jpg">
+
+        <audio autoplay id="audio">
+            <source src="./assets/The Weeknd - Earned It (from Fifty Shades Of Grey) (Official Lyric Video).mp4">
+        </audio>
+
+        <div class="titulo">
+        <h1>Earned It</h1>
+        <p class="nm t4">The Weeknd - Earned It (Fifty Shades Of Grey)</p>
+    </div>
+
+    <!-- correr do tempo aqui -->
+
+    <div class="controle">
+   <!-- <img class="botao r1" onclick="loop()" src="./assets/loop.PNG"> -->
+   <a href="./p3.html"><img class="botao" src="./assets/back.PNG"></a>
+   <img class="botao" onclick="play()" src="./assets/play.PNG">
+   <img class="botao" onclick="pause()" src="./assets/pause.PNG">
+   <a href="./index.html"><img class="botao r1" onclick="next()" src="./assets/next.PNG"></a>
+   <!-- <img class="botao" onclick="random()" src="./assets/random.PNG"> -->
+
+   <img class="botao r1" id="volume" onclick="volume_menos()" src="./assets/volume-menos.PNG">
+   <img class="botao r1" id="volume" onclick="volume_mais()" src="./assets/volume-maiss.PNG">
+    </div>
+
+
+
+    </div>
+
+    <div class="playlist">
+        <h2>The Weeknd - Playlist</h2>
+        <a href="./index.html"><p class="pn">Alone Again [Explict]</p></a>
+        <a href="./p2.html"><p class="pn">Call Out My Name</p></a>
+        <a href="./p3.html"><p class="pn">The Hills</p></a>
+        <a href="./p4.html"><p class="pn">Earned It</p></a>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
